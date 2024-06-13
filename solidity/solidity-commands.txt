@@ -1,0 +1,63 @@
+---------------1 ---------truffle installations -------
+npm install -g truffle
+truffle version
+
+create folder and run the command: 
+truffle init
+truffle create contract Helloworld
+truffle init
+
+----------------2 -------- install solidity -------
+
+npm install -g solc
+
+solcjs --help
+solcjs --version
+
+how to run:
+solcjs --bin helloworld.sol
+
+create abi file:
+soljs --abi helloworld.js
+
+
+build in another folder:
+solcjs --bin helloworld.sol --output-dir test
+
+create abi file:
+solcjs --abi Hello-world.sol --output
+-dir test
+
+
+solc --bin --abi hello-world.sol
+
+-----2
+npm install web3
+node deploy.js
+
+-------3 using to create a react app ------
+npx create-react-app chain-ui
+
+make sure Ganache is installed on your pc. open it with quick start button.
+follwing commands you do it inside your project directory.
+
+npm install truffle --force -g
+
+truffle init
+
+go to 
+
+truffle console
+
+truffle(ganache) > compile
+
+--create a migration file and compile again.
+
+.exit (to exit from console)
+
+--- check the ganache -- add your truffle.config file before comiple---
+click on contracts to see your contract
+
+to reset the transactions
+
+>truffle migrate -reset
